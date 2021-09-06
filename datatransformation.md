@@ -11,12 +11,12 @@
   *  Algorithms like KNN,K Means,Hierarichal Clustering use Eucledian Distance, Manhattan Distance etc. for the peorpose of mesure the distance between observations, They need scaled data too for the better a prediction.
   *  Deep Learning Techniques needs Standardization, Scaling they are also Feature Transformation techniques.
 
-### [Types Of Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/transformation.md)
+### Types Of Transformation 
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
-1. Normalization And Standardization
-2. Scaling to Minimum And Maximum values
-3. Scaling To Median And Quantiles
+1. [Normalization And Standardization](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
+2. [Scaling to Minimum And Maximum values](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
+3. [Scaling To Median And Quantiles](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
 4. Guassian Transformation
 5. Logarithmic Transformation
 6. Reciprocal Trnasformation
@@ -38,7 +38,7 @@
 
 * Some machine learning models are fundamentally based on distance matrix, also known as the distance-based classifier, for example, K-Nearest-Neighbours, SVM, and Neural Network. * Feature scaling is extremely essential to those models, especially when the range of the features is very different. Otherwise, features with a large range will have a large influence in computing the distance.
 
-### Standardisation vs Max-Min Normalization
+### [Standardisation vs Max-Min Normalization](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Standardisation is more robust to outliers, and in many cases, it is preferable over Max-Min Normalisation.
 * In contrast to standardisation, we will obtain smaller standard deviations through the process of Max-Min Normalisation.
