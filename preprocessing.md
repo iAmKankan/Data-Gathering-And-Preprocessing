@@ -15,7 +15,7 @@
   *  Algorithms like KNN,K Means,Hierarichal Clustering use Eucledian Distance, Manhattan Distance etc. for the peorpose of mesure the distance between observations, They need scaled data too for the better a prediction.
   *  Deep Learning Techniques needs Standardization, Scaling they are also Feature Transformation techniques.
 
-### [Types Of Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/edit/main/transformation.md)
+### [Types Of Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/transformation.md)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 1. Normalization And Standardization
