@@ -25,7 +25,7 @@
 9. Box Cox Transformation
 
 
-###  [Feature Scaling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
+##  [Feature Scaling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
  ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 
 * In practice, different types of variables are often encountered in the same data set. A significant issue is that the range of the variables may differ a lot. Using the original scale may put more weight on the variables with a large range. In order to deal with this problem, the technique of features rescaling need to be applied to independent variables or features of data in the step of data preprocessing.
@@ -49,6 +49,7 @@
 ### Note:
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * If an algorithm is not distance-based, feature scaling is unimportant, including Naive Bayes, Linear Discriminant Analysis, and Tree-Based models (gradient boosting, random forest, etc.).
+
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 ## Gaussian Distribution
@@ -61,3 +62,21 @@
 
  ![image](https://user-images.githubusercontent.com/12748752/132567846-965a6592-ed4b-4458-baa4-3baefb0cf88f.png)
 * Samples of the Gaussian Distribution follow a bell-shaped curve and lies around the mean. The mean, median, and mode of Gaussian Distribution are the same.
+
+### Various Transformations to change the distribution of features
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+
+* Log Transformation
+* Square root Transformation
+* Reciprocal Transformation
+* Exponential Transformation
+* Box-Cox Transformation
+
+### How to check if a variable is following Normal Distribution?
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Histogram
+* Q-Q plot
+* KDE plot
+* Skewness and Kurtosis
+* Five Number Summary 
+
