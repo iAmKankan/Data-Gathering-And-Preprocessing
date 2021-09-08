@@ -81,3 +81,18 @@
 * Skewness and Kurtosis
 * Five Number Summary 
 
+### Normal Distribution
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* We call this Bell-shaped curve a Normal Distribution. Carl Friedrich Gauss discovered it so sometimes we also call it a Gaussian Distribution as well.
+* Bell Curve
+* ![image](https://user-images.githubusercontent.com/12748752/132575778-5fe65296-161f-42ab-8af0-9a0adacc8f15.png)
+
+* The normal distribution is a core concept in statistics, the backbone of data science.
+
+### Properties of Normal Distribution
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+
+
+
+### References
+* https://www.analyticsvidhya.com/blog/2020/04/statistics-data-science-normal-distribution/
