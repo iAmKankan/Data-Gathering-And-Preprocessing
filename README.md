@@ -4,6 +4,12 @@
  ![preprocessing](https://user-images.githubusercontent.com/12748752/126914717-48cc96d8-956a-4e6d-88b6-0166fb71290e.jpg)
  ### [Data Cleaning](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md)
  ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Datasets usually contain large volumes of data that may be stored in formats that are not easy to use. 
+* That’s why data scientists need first to make sure that data is correctly formatted and conforms to the set of rules.
+*  Data sparseness and formatting inconsistencies are the biggest challenges – and that’s what data cleansing is all about. 
+>  Data cleaning is a task that identifies incorrect, incomplete, inaccurate, or irrelevant data, fixes the problems, and makes sure that all such issues will be fixed automatically in the future.
+*  According to Appen, data scientists spend 60% of the time organizing and cleansing data!
+
 * [**Missing Value**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#missing-value)
   * [Identify missing value.](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#the-reason-of-data-is-missing)
   * [Dorping missing value.](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#drop-missing-values)
