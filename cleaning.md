@@ -39,7 +39,7 @@
 
 #### Filling in missing values automatically
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* We can use the Panda's -**fillna()**_ function to fill in missing values in a dataframe for us.
+* We can use the Panda's _**fillna()**_ function to fill in missing values in a dataframe for us.
 * One option we have is to specify what we want the NaN values to be replaced with. 
 * Here, I would like to replace all the NaN values with 0.
 
