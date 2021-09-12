@@ -1,16 +1,10 @@
 
-
-## Data Cleaning
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* Data cleaning is a key part of data science, but it can be deeply frustrating.
-   *  Why are some of your text fields garbled? 
-   *  What should you do about those missing values? 
-   *  Why aren’t your dates formatted correctly? 
-   *  How can you quickly clean up inconsistent data entry? 
-   *  How to fix them!
-### Missing Value
+### [Missing Value](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-
+* Ignoring missing values in a data set is a huge mistake as most algorithms simply don’t accept them. 
+* Some companies deal with this problem by imputing the missing values based on other observations or dropping the observations with missing values altogether. 
+* But these strategies lead to loss of information (note that “no value” also tells us something. 
+* If companies miss categorical data, they can label them as “Missing.” Missing numeric data should be flagged and filled with 0 to allow the algorithm estimate the optimal constant for such a situation.
 #### The reason of data is missing
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
@@ -30,7 +24,7 @@
 > _**In statistics, imputation is the process of replacing missing data with substituted values.**_
 
 
-#### Drop missing values
+#### [Drop missing values](![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 * If you're in a hurry or don't have a reason to figure out why your values are missing, one option you have is to just remove any rows or columns that contain missing values. 
@@ -39,7 +33,7 @@
 
 * To drop rows with missing values, Pandas does have a handy function, _**dropna()**_ to help you do this. 
 
-#### Filling in missing values automatically
+#### [Filling in missing values automatically](![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * We can use the Panda's _**fillna()**_ function to fill in missing values in a dataframe for us.
 * One option we have is to specify what we want the NaN values to be replaced with. 
