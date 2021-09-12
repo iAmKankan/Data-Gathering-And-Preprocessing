@@ -24,7 +24,7 @@
 > _**In statistics, imputation is the process of replacing missing data with substituted values.**_
 
 
-#### [Drop missing values](![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+#### [Drop missing values](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 * If you're in a hurry or don't have a reason to figure out why your values are missing, one option you have is to just remove any rows or columns that contain missing values. 
@@ -33,7 +33,7 @@
 
 * To drop rows with missing values, Pandas does have a handy function, _**dropna()**_ to help you do this. 
 
-#### [Filling in missing values automatically](![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+#### [Filling in missing values automatically](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * We can use the Panda's _**fillna()**_ function to fill in missing values in a dataframe for us.
 * One option we have is to specify what we want the NaN values to be replaced with. 
