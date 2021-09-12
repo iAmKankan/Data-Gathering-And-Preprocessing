@@ -17,7 +17,7 @@
 * One of the most important questions you can ask yourself to help figure this out is this:
 > **Is this value missing because it wasn't recorded or because it doesn't exist?**
 
-#### Measure of missing data
+#### Measures for missing data
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 * If a value is missing becuase it doesn't exist (like the height of the oldest child of someone who doesn't have any children) then it doesn't make sense to try and guess what it might be. 
