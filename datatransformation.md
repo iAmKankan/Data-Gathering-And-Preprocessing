@@ -52,7 +52,7 @@
 
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
-## [Gaussian Distribution](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb)
+## [Gaussian Distribution / Normal Distribution](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 
 * In Machine learning or Deep Learning, some of the models such as Linear Regression, Logistic Regression, Artificial Neural Networks assume that features are normally distributed and can perform much better if the features provided to them during modeling are normally distributed.
