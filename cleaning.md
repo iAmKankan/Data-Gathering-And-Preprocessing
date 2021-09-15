@@ -5,11 +5,14 @@
 * Some companies deal with this problem by imputing the missing values based on other observations or dropping the observations with missing values altogether. 
 * But these strategies lead to loss of information (note that “no value” also tells us something. 
 * If companies miss categorical data, they can label them as “Missing.” Missing numeric data should be flagged and filled with 0 to allow the algorithm estimate the optimal constant for such a situation.
-#### The reason of data is missing
+#### Why is data missing?
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* The source of missing data can be very different and here are just a few examples:
 
-* This part is better be called "data intution", by which it mean "really looking at the  data and trying to figure out why it is the way it is and how that will affect the analysis". 
-* For dealing with missing values, you'll need to use your intution to figure out why the value is missing. 
+  - A value is missing because it was forgotten or lost or not stored properly
+  - For a certain observation, the value of the variable does not exist
+  - The value can't be known or identified
+ 
 * One of the most important questions you can ask yourself to help figure this out is this:
 > **Is this value missing because it wasn't recorded or because it doesn't exist?**
 
