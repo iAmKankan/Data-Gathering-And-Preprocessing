@@ -8,6 +8,8 @@
 * There are two main data types you'll encounter when working with text in Python 3. 
   *  **One is is the string, which is what text is by default.**
   *  **The other data is the bytes data type, which is a sequence of integers.**
-*  You can convert a string into bytes by specifying which encoding it's in:
+*  You can convert a string into bytes by specifying which encoding it's in.
+*  
+*  
 
 
