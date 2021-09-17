@@ -1,9 +1,7 @@
-## Preprocessing:
- ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-
  ![preprocessing](https://user-images.githubusercontent.com/12748752/126914717-48cc96d8-956a-4e6d-88b6-0166fb71290e.jpg)
- ### [Data Cleaning](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md)
- ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+
+### [Data Cleaning](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md)
+![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * Datasets usually contain large volumes of data that may be stored in formats that are not easy to use. 
 * That’s why data scientists need first to make sure that data is correctly formatted and conforms to the set of rules.
 *  Data sparseness and formatting inconsistencies are the biggest challenges – and that’s what data cleansing is all about. 
@@ -15,8 +13,8 @@
   * [Dorping missing value.](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#drop-missing-values)
   * [Auto filling missing value](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#filling-in-missing-values-automatically)
 
-* [Parsing Dates](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/date_parsing.md)
-
+* [**Parsing Dates**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/date_parsing.md)
+* [**Character encoading**]()
 
  ### [Data transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/datatransformation.md)
  ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
