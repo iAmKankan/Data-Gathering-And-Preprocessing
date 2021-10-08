@@ -1,6 +1,4 @@
- ![preprocessing](https://user-images.githubusercontent.com/12748752/126914717-48cc96d8-956a-4e6d-88b6-0166fb71290e.jpg)
-
-
+![preprocessing](https://user-images.githubusercontent.com/12748752/126914717-48cc96d8-956a-4e6d-88b6-0166fb71290e.jpg)
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * [**Data Cleaning**](#data-cleaning)
@@ -37,7 +35,7 @@
 *  According to Appen, data scientists spend 60% of the time organizing and cleansing data!
 
  ### [Data transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/datatransformation.md)
- ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * Feature transformation is simply a function that transforms features from one representation to another. 
 * But why would we transform our features? Well there are many reasons, such as:
   *  Data types are not suitable to be fed into a machine learning algorithm, e.g. text, categories
@@ -49,12 +47,22 @@
 
 
 
- ### Data Reduction
+### Data Reduction
+![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+#### Curse of Dimentionlity
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* The curse of dimensionality basically means that the error increases with the increase in the number of features. 
+* It refers to the fact that algorithms are harder to design in high dimensions and often have a running time exponential in the dimensions.
+*  A higher number of dimensions theoretically allow more information to be stored, but practically it rarely helps due to the higher possibility of noise and redundancy in the real-world data.
+ 
+ * **In machine learning,** a small increase in the dimensionality would require a large increase in the volume of the data in order to maintain a similar level of performance.
+ * Thus the curse of dimensionality is the expression of all phenomena that appear with high-dimensional data, and that have most often unfortunate consequences on the behavior and performances of learning algorithms.
+ 
+ #### How to combat CoD
  ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-
- 
- 
- 
+ * **Dimensionality Reduction**
+ * **Regularisation**
+ * **Principal Component Analysis(PCA)
  
  ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 
