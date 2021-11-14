@@ -22,7 +22,7 @@
   * [Box Cox Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
 
 * [**Data Reduction**](#data-reduction)
-  * [Dimentionlity Reduction]()
+  * [Dimentionlity Reduction](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Dimensionality_Reduction)
 
 
 
