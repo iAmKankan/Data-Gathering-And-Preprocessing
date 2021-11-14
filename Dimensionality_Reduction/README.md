@@ -1,6 +1,7 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-
+* [The Curse of Dimensionality](#the-curse-of-dimensionality)
+* [What is Dimensionality Reduction?](#what-is-dimensionality-reduction?)
 
 ### The Curse of Dimensionality
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
