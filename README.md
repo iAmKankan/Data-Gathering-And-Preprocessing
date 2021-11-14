@@ -71,27 +71,5 @@
 * It Works on Statistical Concept based Machine Learning Algorithms
   * Random forest doesnot need Dimensionality Reduction
   * Although Neural Net doesnot works very good but doesnot need Dimensionality Reduction.
- ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-
  
-#### List of Machine Learning algorithms which are sensitive to outliers:
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-
-1. Linear Regression
-2. Logistic Regression
-3. Support Vector Machine
-4. K- Nearest Neighbors
-5. K-Means Clustering
-6. Hierarchical Clustering
-7. Principal Component Analysis
-
-#### List of Machine Learning algorithms which are not sensitive to outliers:
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-
-1. Decision Tree
-2. Random Forest
-3. XGBoost
-4. AdaBoost
-5. Naive Bayes
-
- 
+![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
