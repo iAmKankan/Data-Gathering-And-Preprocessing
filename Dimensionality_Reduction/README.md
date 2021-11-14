@@ -3,8 +3,8 @@
 * [The Curse of Dimensionality](#the-curse-of-dimensionality)
 * [What is Dimensionality Reduction?](#what-is-dimensionality-reduction)
 * [Dimensionality Reduction benefits](#dimensionality-reduction-benefits)
-* [1. Feature selection](#1-feature-selection)
-* [2. Feature extraction](#2-feature-extraction)
+   * [1. Feature selection](#1-feature-selection)
+   * [2. Feature extraction](#2-feature-extraction)
 
 ### The Curse of Dimensionality
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
