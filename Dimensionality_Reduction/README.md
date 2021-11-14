@@ -62,11 +62,6 @@ The feature selection method aims to find a subset of the input variables (that 
 *  Random Forests
 
 
-### PCA
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* Principal Component Analysis (PCA) is by far the most popular dimensionality reduction algorithm. 
-* First it identifies the hyperplane that lies closest to the data, and then it projects the data onto it
-
 
 
 ## References
