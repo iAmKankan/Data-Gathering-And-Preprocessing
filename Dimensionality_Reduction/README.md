@@ -38,7 +38,7 @@
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Dimensionality reduction techniques can be categorized into two broad categories:
 
-### 1 Feature selection
+### 1. Feature selection
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 The feature selection method aims to find a subset of the input variables (that are most relevant) from the original dataset. Feature selection includes three strategies, namely:
