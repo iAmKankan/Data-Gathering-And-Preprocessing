@@ -5,7 +5,7 @@
 
 * It Works on Statistical Concept based Machine Learning Algorithms
   * Random forest does not need it.
-  * It autometically handles [Multi-colinearity.](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Linear%20Regrassion/correlation.md#colinearity) present in data.
+  * It autometically handles [Multi-colinearity.](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md) present in data.
   * It is sensitive to Outliers.
 
 
