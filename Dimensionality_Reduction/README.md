@@ -1,7 +1,9 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * [The Curse of Dimensionality](#the-curse-of-dimensionality)
-* [What is Dimensionality Reduction?](#what-is-dimensionality-reduction?)
+* [What is Dimensionality Reduction?](#what-is-dimensionality-reduction)
+* [Dimensionality Reduction benefits](#dimensionality-reduction-benefits)
+* [1. Feature selection](#1.-feature-selection)
 
 ### The Curse of Dimensionality
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
@@ -16,7 +18,7 @@
 > * In theory, one solution to the curse of dimensionality could be to increase the size of the training set to reach a sufficient density of training instances.
 > * Unfortunately, in practice, the number of training instances required to reach a given density grows exponentially with the number of dimensions. 
 
-### What is Dimensionality Reduction?
+### What is Dimensionality Reduction
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * In simple words, dimensionality reduction refers to the technique of reducing the dimension of a data feature set.
 * Usually, machine learning datasets (feature set) contain hundreds of columns (i.e., features) or an array of points, creating a massive sphere in a three-dimensional space.
@@ -36,7 +38,7 @@
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Dimensionality reduction techniques can be categorized into two broad categories:
 
-### 1. Feature selection
+### 1 Feature selection
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 The feature selection method aims to find a subset of the input variables (that are most relevant) from the original dataset. Feature selection includes three strategies, namely:
