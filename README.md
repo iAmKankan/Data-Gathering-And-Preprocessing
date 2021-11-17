@@ -10,7 +10,7 @@
     * [Dorping missing value.](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#drop-missing-values)
     * [Auto filling missing value](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#filling-in-missing-values-automatically)
   * [**Parsing Dates**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/date_parsing.md)
-  * [**Character encoading**]()
+
   * [Multi Colinearity](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
 * [**Data transformation**](#data-transformation)
   * [Feature Scaling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/datatransformation.md#feature-scaling)
@@ -23,7 +23,11 @@
     * [Square Root Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
     * [Exponential Trnasformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
   * [Box Cox Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
+ 
+* [**Character Encoading**]()
+* [**Categorical Encoading**]()
 * [**Feature Selection**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/feature_selection#readme)
+* [**Handling Imbalanced Data]()
 * [**Data Reduction**](#data-reduction)
   * [Dimentionlity Reduction](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Dimensionality_Reduction)
 
