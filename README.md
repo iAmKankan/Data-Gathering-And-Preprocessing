@@ -27,7 +27,7 @@
 * [**Character Encoading**]()
 * [**Categorical Encoading**]()
 * [**Feature Selection**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/feature_selection#readme)
-* [**Handling Imbalanced Data]()
+* [**Handling Imbalanced Data**]()
 * [**Data Reduction**](#data-reduction)
   * [Dimentionlity Reduction](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Dimensionality_Reduction)
 
