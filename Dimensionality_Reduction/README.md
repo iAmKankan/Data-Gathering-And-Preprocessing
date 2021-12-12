@@ -13,30 +13,38 @@
 * The dimension of the data means the no. of features or columns in our dataset.
  * **In machine learning,** a small increase in the dimensionality would require a large increase in the volume of the data in order to maintain a similar level of performance.
  * Thus the curse of dimensionality is the expression of all phenomena that appear with high-dimensional data, and that have most often unfortunate consequences on the behavior and performances of learning algorithms.
-
-
-
-> ### Issues
+> ### Issue 1
 > * Specifically the issue of data sparsity and “closeness” of data.
 > * It becomes very challenging to identify meaningful patterns while analyzing and visualizing the data and it also degrades the Machine Learning model’s accuracy while decreasing the computation speed as well, i.e. training the model will become much slower as the dimensions increase.
 > * Infinite Features Requires Infinite Training.
 
-> ### Solution 1
+> ### Issue 2
 > * In theory, one solution to the curse of dimensionality could be to increase the size of the training set to reach a sufficient density of training instances.
 > * Unfortunately, in practice, the number of training instances required to reach a given density grows exponentially with the number of dimensions. 
- 
  ### How to combat CoD
  ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
  * **Dimensionality Reduction**
  * **Regularisation**
  * **Principal Component Analysis(PCA)**
 
-
 ### What is Dimensionality Reduction
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * In simple words, dimensionality reduction refers to the technique of reducing the dimension of a data feature set.
 * Usually, machine learning datasets (feature set) contain hundreds of columns (i.e., features) or an array of points, creating a massive sphere in a three-dimensional space.
 * By applying dimensionality reduction, you can decrease or bring down the number of columns to quantifiable counts, thereby transforming the three-dimensional sphere into a two-dimensional object (circle). 
+> #### Approachs
+* There are two main approaches to reducing dimensionality:
+  - Projection.
+  - Manifold Learning.
+
+### Projection
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* In most real-world problems, training instances are not spread out uniformly across all dimensions. 
+* Many features are almost **_constant_**, while others are **_highly correlated_** (as we can see in MNIST some consecutive pixels are identical). 
+* As a result, all training instances lie within (or close to) a much lower-dimensional subspace of the high-dimensional space.( 2D space or 3D space in CNN for example)
+
+### Manifold Learning
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 ### Dimensionality Reduction benefits
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
