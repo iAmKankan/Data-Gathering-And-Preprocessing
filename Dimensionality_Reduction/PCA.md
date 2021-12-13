@@ -16,6 +16,22 @@
 * On the right is the result of the projection of the dataset onto each of these axes. 
 * As you can see, the projection onto the solid line preserves the maximum variance, while the projection onto the dotted line preserves very little variance and the projection onto the dashed line preserves an intermediate amount of variance. 
 <img src="https://user-images.githubusercontent.com/12748752/145732472-86499fae-d874-4c90-b175-fed040f4fffa.png" width=40% />
+
 * It seems reasonable to select the axis that preserves the _maximum amount of variance_, as it will most likely lose less information than the other projections.
 * Another way to justify this choice is that it is the axis that minimizes the mean squared distance between the original dataset and its projection onto that axis. 
 * This is the rather simple idea behind PCA
+
+### Principal Components
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* **_PCA identifies the axis that accounts for the largest amount of variance in the training set_**. (in the figure, it is the solid line)
+* Which the first Principle Component(PC) on which the vector C<sub>1</sub> lies.
+* It also finds a second axis, orthogonal(Perpendicular) to the first one, that accounts for the largest amount of remaining variance. (in this 2D example there is no choice: it is the dotted line)
+* Similarly it is the socond Principle Component(PC) on which the vector C<sub>2</sub> lies.
+* If it were a higher-dimensional dataset, PCA would also find a third axis, orthogonal to both previous axes, and a fourth, a fifth, and so on—as many axes as the number of dimensions in the dataset.
+* The third PC would be the axis orthogonal to that plane where the first two PC were axis orthogonal to each other.
+> #### So how can you find the principal components of a training set? 
+* Luckily, there is a standard matrix factorization technique called _Singular Value Decomposition (SVD)_ that can decompose the training set matrix X into the matrix multiplication of three matrices U Σ V ,
+
+## References
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Hands-on ML by Aurelien Geron
