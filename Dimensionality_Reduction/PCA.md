@@ -1,6 +1,5 @@
 ## Principal Component Analysis(PCA)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-* Principal Component Analysis (PCA) is by far the most popular dimensionality reduction algorithm. 
 > #### First it identifies the hyperplane that lies closest to the data, and then it projects the data onto it
 
 * It Works on Statistical Concept based Machine Learning Algorithms
@@ -32,6 +31,7 @@
 > #### So how can you find the principal components of a training set? 
 * Luckily, there is a standard matrix factorization technique called _Singular Value Decomposition (SVD)_ that can decompose the training set matrix X into the matrix multiplication of three matrices U Σ V ,
 
+> #### Linear dimensionality reduction using Singular Value Decomposition of the data to project it to a lower dimensional space. The input data is centered but not scaled for each feature before applying the SVD.
 ## References
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Hands-on ML by Aurelien Geron
