@@ -3,8 +3,8 @@
 * [The Curse of Dimensionality](#the-curse-of-dimensionality)
 * [What is Dimensionality Reduction?](#what-is-dimensionality-reduction)
 * [Dimensionality Reduction benefits](#dimensionality-reduction-benefits)
-   * [1. Feature selection](#1-feature-selection)
-   * [2. Feature extraction](#2-feature-extraction)
+   1. [Feature selection](#1-feature-selection)
+   2. [Feature extraction](#2-feature-extraction)
  * [Principal Component Analysis(PCA)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Dimensionality_Reduction/PCA.md)
 
 ### The Curse of Dimensionality
