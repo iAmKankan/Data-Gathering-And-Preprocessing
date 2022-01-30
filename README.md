@@ -26,6 +26,8 @@
 * [**Handling Imbalanced Data**]()
 * [**Data Reduction**](#data-reduction)
   * [Dimentionlity Reduction](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Dimensionality_Reduction)
+---
+* [_**Model Deployment**_](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/README.md)
 ## Variable
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 ![variables](https://user-images.githubusercontent.com/12748752/142158851-d5b4dea7-daf5-4da4-a601-a33cbce35222.png)
