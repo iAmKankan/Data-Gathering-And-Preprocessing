@@ -41,8 +41,9 @@ if __name__ == '__main__':
 {'hello': 'world'}
 ```
 
-> ####  Save this as api.py and run it using your Python interpreter. Note that we’ve enabled Flask debugging mode to provide code reloading and better error messages.
-> ####  _Debug mode should never be used in a production environment!_
+> * ####  Save this as api.py and run it using your Python interpreter. 
+> * #### _Note_ that we’ve enabled Flask debugging mode to provide code reloading and better error messages.
+> * ####  _Debug mode should never be used in a production environment!_
 
 
 ## Resources:
