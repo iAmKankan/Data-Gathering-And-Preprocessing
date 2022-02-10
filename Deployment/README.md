@@ -1,8 +1,8 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * [RESTful API](url)
-  * Falsk
-## Setup
+  * Falsk setup
+## Falsk Setup
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 > ### Step 01: Install Virtual Environment
 * Open a IDE 
