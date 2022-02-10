@@ -1,6 +1,6 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-* Falsk setup
+* Basic Flask
 ## Basic Flask 
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * **_Flask_** and **_Flask-RESTful_**
@@ -41,7 +41,8 @@ if __name__ == '__main__':
 {'hello': 'world'}
 ```
 
-> ### Save this as api.py and run it using your Python interpreter. Note that we’ve enabled Flask debugging mode to provide code reloading and better error messages. Debug mode should never be used in a production environment!
+> ####  Save this as api.py and run it using your Python interpreter. Note that we’ve enabled Flask debugging mode to provide code reloading and better error messages.
+> ####  _Debug mode should never be used in a production environment!_
 
 
 ## Resources:
