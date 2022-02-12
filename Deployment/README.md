@@ -3,6 +3,8 @@
 * [Project Setup](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/README.md#project-setup)
 * [RESTful API](url)
   * [Falsk setup](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/flask.md)
+* Cloud Plateforms
+  * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/heroku.md)
 ## Building a webpage using python.
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * There are many frameworks which allow building your webpage using python like a **_bottle_**, **_Django_**, **_flask_**, etc. 
