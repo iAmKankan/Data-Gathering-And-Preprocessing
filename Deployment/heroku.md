@@ -21,7 +21,7 @@ web: gunicorn app:app
 ```python
 python-3.7.10
 ```
-> ### Step 02: Heroku site
+> ### Step 02: Heroku setup
 * Login in Heroku site 
 * Give a  name of the project lets say **_`grescorepredic01`_**
 * Choose any **`Deployment method`**
