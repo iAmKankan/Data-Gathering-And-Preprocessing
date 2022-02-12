@@ -41,10 +41,12 @@ if __name__ == '__main__':
 {'hello': 'world'}
 ```
 
-> * ####  Save this as api.py and run it using your Python interpreter. 
+> * ####  Save this as api.py and run it using your Python interpreter. And open 'localhost' with port 5000 - "http://127.0.0.1:5000/" or "http://localhost:5000/".
 > * #### _Note_ that we’ve enabled Flask debugging mode to provide code reloading and better error messages.
 > * ####  _Debug mode should never be used in a production environment!_
 
+## Static Content
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 ## Resources:
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
