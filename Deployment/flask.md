@@ -3,9 +3,14 @@
 * Basic Flask
 ## Flask 
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* Flask is a web application framework written in Python. 
+* Flask is a micro-web application framework written in Python. 
 * Flask is based on the Werkzeug **WSGI** toolkit and **Jinja2** template engine. 
 * Both are Pocco projects.
+* To understand what Flask is you have to understand few general terms. 
+  * **_WSGI_** Web Server Gateway Interface (WSGI) has been adopted as a standard for Python web application development. WSGI is a specification for a universal interface between the web server and the web applications. 
+  * **_Werkzeug_** It is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
+  * **_jinja2_** jinja2 is a popular templating engine for Python. A web templating system combines a template with a certain data source to render dynamic web pages.
+
 * **_Flask_** and **_Flask-RESTful_**
 #### [Example 01:](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/app.py)
 ```python3
