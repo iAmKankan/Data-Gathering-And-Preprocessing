@@ -1,8 +1,11 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * Basic Flask
-## Basic Flask 
+## Flask 
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Flask is a web application framework written in Python. 
+* Flask is based on the Werkzeug **WSGI** toolkit and **Jinja2** template engine. 
+* Both are Pocco projects.
 * **_Flask_** and **_Flask-RESTful_**
 #### [Example 01:](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/app.py)
  ```python
