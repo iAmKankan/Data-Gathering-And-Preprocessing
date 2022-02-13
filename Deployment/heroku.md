@@ -11,12 +11,12 @@ Heroku is a cloud platform as a service (PaaS) supporting several programming la
 * We need to add two files inorder to deploy the project on cloud
   * File name **_`Procfile`_** ( generic file - no file extention)
   * File name **_`runtime.txt`_**
-> #### **_`Procfile`_** contains
+> #### [**_`Procfile`_**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/Procfile) contains
 ```python
 web: gunicorn app:app
 ```
 
-> #### **_`runtime.txt`_** contains
+> #### [**_`runtime.txt`_**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/runtime.txt) contains
 ```python
 python-3.7.10
 ```
