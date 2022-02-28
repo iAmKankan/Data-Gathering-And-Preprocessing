@@ -27,7 +27,13 @@
   6. interpolate()
 * [Jupyter Notebook for the above Pandas function](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 
-
+### 2. Data visualization
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Data Visualization is the process of analyzing data in the form of graphs or maps, making it a lot easier to understand the trends or patterns in the data. 
+* There are various types of visualizations – 
+   * **Univariate analysis:** This type of data consists of only one variable. The analysis of univariate data is thus the simplest form of analysis since the information deals with only one quantity that changes. It does not deal with causes or relationships and the main purpose of the analysis is to describe the data and find patterns that exist within it.
+   * **Bi-Variate analysis:** This type of data involves two different variables. The analysis of this type of data deals with causes and relationships and the analysis is done to find out the relationship among the two variables.
+   * **Multi-Variate analysis:** When the data involves three or more variables, it is categorized under multivariate.
 
 
 
