@@ -1,5 +1,6 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+* ### [EDA (_Exploratory Data Analysis_)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
 * [Bias and Varience](https://github.com/iAmKankan/MachineLearning_With_Python#bias-and-varience)
 * [Overfitting and Underfitting](https://github.com/iAmKankan/MachineLearning_With_Python#overfitting-and-underfitting)
 * [**Data Cleaning**](#data-cleaning)
@@ -20,7 +21,6 @@
     * [Square Root Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
     * [Exponential Trnasformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
   * [Box Cox Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
-* ### [EDA (_Exploratory Data Analysis_)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
 * [**Character Encoading**]()
 * [**Categorical Encoading**]()
 * [**Feature Selection**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/feature_selection#readme)
