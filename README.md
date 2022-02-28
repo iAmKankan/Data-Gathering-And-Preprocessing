@@ -20,7 +20,7 @@
     * [Square Root Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
     * [Exponential Trnasformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
   * [Box Cox Transformation](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb) 
-  * [EDA (Exploratory Data Analysis)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
+* [EDA (Exploratory Data Analysis)](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
 * [**Character Encoading**]()
 * [**Categorical Encoading**]()
 * [**Feature Selection**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/feature_selection#readme)
