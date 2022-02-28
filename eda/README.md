@@ -36,6 +36,15 @@
    * **Multi-Variate analysis:** When the data involves three or more variables, it is categorized under multivariate.
 
 
+### 3. Handling Outliers
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* An Outlier is a data-item/object that deviates significantly from the rest of the (so-called normal)objects. 
+* They can be caused by measurement or execution errors. 
+* The analysis for outlier detection is referred to as outlier mining. 
+* There are many ways to detect the outliers, and the removal process is the data frame same as removing a data item from the panda’s dataframe.
+
+### Removing Outliers
+* For removing the outlier, one must follow the same process of removing an entry from the dataset using its exact position in the dataset because in all the above methods of detecting the outliers end result is the list of all those data items that satisfy the outlier definition according to the method used.
 
 
 
