@@ -26,14 +26,32 @@
 ### Measures for missing data
 * If a value is missing becuase it doesn't exist (like the height of the oldest child of someone who doesn't have any children) then it doesn't make sense to try and guess what it might be. 
 * These values you probably do want to keep as _**NaN**_.
-* On the other hand, if a value is missing because it wasn't recorded, then you _**can try to guess what it might have been based on the other values in that column and row.**_ 
+* On the other hand, if a value is missing because it wasn't recorded, then _**you can try to guess what it might have been based on the other values in that column and row.**_ 
 * This is called **imputation.** 
-> ### _**In statistics, imputation is the process of replacing missing data with substituted values.**_
+> ### _**In statistics, Imputation is the process of replacing missing data with substituted values.**_
+* There are several useful functions for detecting, removing, and replacing null values in Pandas DataFrame :
+  1. isnull()
+  2. notnull()
+  3. dropna()
+  4. fillna()
+  5. replace()
+  6. interpolate()
+### _a. Detecting missing values_
+```Python
+import numpy as np
+import pandas as pd
 
-
-#### [Drop missing values](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-
+# passing a dictionary inorder to make a Dataframe
+df = pd.DataFrame({'age': [6, 7, np.NaN],
+                   'born': [pd.NaT, pd.Timestamp('1998-04-25'),
+                            pd.Timestamp('1940-05-27')],
+                   'name': ['Alfred', 'Spiderman', ''],
+                   'toy': [None, 'Spidertoy', 'Joker']})
+df.head()
+```
+2. Drop missing values
+3. Filling in missing values or Data imputation
+#### _b. Drop missing values_
 * If you're in a hurry or don't have a reason to figure out why your values are missing, one option you have is to just remove any rows or columns that contain missing values. 
 
 > Note: Generally this approch is not recommend for important projects! It's usually worth it to take the time to go through your data and really look at all the columns with missing values one-by-one to really get to know your dataset.    
@@ -52,13 +70,7 @@
 
 
 
-* There are several useful functions for detecting, removing, and replacing null values in Pandas DataFrame :
-  1. isnull()
-  2. notnull()
-  3. dropna()
-  4. fillna()
-  5. replace()
-  6. interpolate()
+
 * [Jupyter Notebook for the above Pandas function](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ### 2. Data visualization
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
