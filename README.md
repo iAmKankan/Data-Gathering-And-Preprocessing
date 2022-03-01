@@ -1,6 +1,6 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-### [EDA (_Exploratory Data Analysis_) and Preprocessing](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
+### [ _Exploratory Data Analysis_(EDA) _and Preprocessing_](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda)
    * [**Missing Value Detection & Handling**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md#missing-value)
    * [**Data visualization**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#2-data-visualization)
    * [**Outliers Detection & Handling**](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#3-handling-outliers)
