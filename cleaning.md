@@ -1,5 +1,5 @@
 
-### [Missing Value](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
+### [Missing Value Handling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * Ignoring missing values in a data set is a huge mistake as most algorithms simply don’t accept them. 
 * Some companies deal with this problem by imputing the missing values based on other observations or dropping the observations with missing values altogether. 
