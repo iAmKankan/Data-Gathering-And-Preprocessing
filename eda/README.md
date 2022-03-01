@@ -49,6 +49,26 @@ df = pd.DataFrame({'age': [6, 7, np.NaN],
                    'toy': [None, 'Spidertoy', 'Joker']})
 df.head()
 ```
+* The **isna()** function is used to detect missing values.
+> _**Series.isna(self)**_
+* **Returns: Series- values for each element in Series that indicates whether an element is not an NA value.**
+```	age	born	name	toy
+0	6.0	NaT	Alfred	None
+1	7.0	1998-04-25	Spiderman	Spidertoy
+2	NaN	1940-05-27		Joker
+```
+```python
+df.isna()
+```
+```
+
+age	born	name	toy
+0	False	True	False	True
+1	False	False	False	False
+2	True	False	False	False
+```
+
+
 2. Drop missing values
 3. Filling in missing values or Data imputation
 #### _b. Drop missing values_
