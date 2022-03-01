@@ -31,7 +31,7 @@
 
 ## Variable
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-![variables](https://user-images.githubusercontent.com/12748752/142158851-d5b4dea7-daf5-4da4-a601-a33cbce35222.png)
+![variables2](https://user-images.githubusercontent.com/12748752/156125379-013f22a6-ff21-4986-84fb-e22cd434509d.png)
 
 ### [Data Cleaning](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/cleaning.md)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
