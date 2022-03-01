@@ -21,14 +21,14 @@
   - For a certain observation, the value of the variable does not exist.
   - The value can't be known or identified.
 * One of the most important questions you can ask yourself to help figure this out is this:
-> #### **_Is this value missing because it wasn't recorded or because it doesn't exist?_**
+> ### **_Is this value missing because it wasn't recorded or because it doesn't exist?_**
 
 ### Measures for missing data
 * If a value is missing becuase it doesn't exist (like the height of the oldest child of someone who doesn't have any children) then it doesn't make sense to try and guess what it might be. 
 * These values you probably do want to keep as _**NaN**_.
 * On the other hand, if a value is missing because it wasn't recorded, then you _**can try to guess what it might have been based on the other values in that column and row.**_ 
 * This is called **imputation.** 
-> #### _**In statistics, imputation is the process of replacing missing data with substituted values.**_
+> ### _**In statistics, imputation is the process of replacing missing data with substituted values.**_
 
 
 #### [Drop missing values](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
