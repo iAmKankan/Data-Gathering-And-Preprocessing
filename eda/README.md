@@ -27,16 +27,16 @@
 * If a value is missing becuase it doesn't exist (like the height of the oldest child of someone who doesn't have any children) then it doesn't make sense to try and guess what it might be. 
 * These values you probably do want to keep as _**NaN**_.
 * On the other hand, if a value is missing because it wasn't recorded, then _**you can try to guess what it might have been based on the other values in that column and row.**_ 
-* This is called **imputation.** 
+* This is called **_imputation._** 
 > ### _**In statistics, Imputation is the process of replacing missing data with substituted values.**_
 * There are several useful functions for detecting, removing, and replacing null values in Pandas DataFrame :
-  1. isnull()
-  2. notnull()
-  3. dropna()
-  4. fillna()
-  5. replace()
-  6. interpolate()
-### _a. Detecting missing values_
+  1. _`isnull()`_
+  2. _`notnull()`_
+  3. _`dropna()`_
+  4. _`fillna()`_
+  5. _`replace()`_
+  6. _`interpolate()`_
+### _Code_
 ```Python
 import numpy as np
 import pandas as pd
@@ -49,29 +49,65 @@ df = pd.DataFrame({'age': [6, 7, np.NaN],
                    'toy': [None, 'Spidertoy', 'Joker']})
 df.head()
 ```
-* The **isna()** function is used to detect missing values.
+```	
+	age	born	      name	toy
+0	6.0	NaT	      Alfred	None
+1	7.0	1998-04-25   Spiderman Spidertoy
+2	NaN	1940-05-27	         Joker
+```
+
+### _a. Detecting missing values by using `isna()`, `notna()`_
+* The **_isna()_** function is used to detect missing values. Which is the abbriviation of "Is Null"
 > _**Series.isna(self)**_
 * **Returns: Series- values for each element in Series that indicates whether an element is not an NA value.**
-```	age	born	name	toy
-0	6.0	NaT	Alfred	None
-1	7.0	1998-04-25	Spiderman	Spidertoy
-2	NaN	1940-05-27		Joker
-```
-```python
+
+```Python
 df.isna()
 ```
 ```
+age	born	name	toy
+0	False	True	False	True
+1	False	False	False	False
+2	True	False	False	False
+```
+* **How many missing(NA) values each column has**
 
+```Python3
+df.isna().sum()
+```
+```
+age     1
+born    1
+name    0
+toy     1
+dtype: int64
+```
+* **Alternatively, you can call the _`mean()`_ method after _`isnull()`_ to visualise the percentage of the dataset that contains missing values for each variable.**
+```Python
+df.isnull().mean()
+```
+```
+age     0.333333
+born    0.333333
+name    0.000000
+toy     0.333333
+dtype: float64
+```
+* The **_notna()_** function is used to detect existing (non-missing) values.
+> _**Series.notna(self)**_
+* **Returns: Series- Mask of bool values for each element in Series that indicates whether an element is not an NA value.**
+```Python
+# Continuation of above DataFrame
+df.isna()
+```
+```
 age	born	name	toy
 0	False	True	False	True
 1	False	False	False	False
 2	True	False	False	False
 ```
 
-
-2. Drop missing values
-3. Filling in missing values or Data imputation
-#### _b. Drop missing values_
+### _b. Drop missing values_
 * If you're in a hurry or don't have a reason to figure out why your values are missing, one option you have is to just remove any rows or columns that contain missing values. 
 
 > Note: Generally this approch is not recommend for important projects! It's usually worth it to take the time to go through your data and really look at all the columns with missing values one-by-one to really get to know your dataset.    
