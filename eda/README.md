@@ -6,7 +6,7 @@
 	* [Measures for missing data](#measures-for-missing-data)
 		* [_a. Detecting missing values by using `isna()`, `notna()`_](#a-detecting-missing-values-by-using-isna-notna)
 		* [_b. Drop Rows/Columns with "Null" values using `dropna()`_](#b-drop-rowscolumns-with-null-values-using-dropna)
-		* [_c.1. Fill `NA/NaN` values using `fillna()`_](#c1-fill-nanan-values-using-fillna)
+		* [_c.1. Fill NA/missing values using `fillna()`_](#c1-fill-nanan-values-using-fillna)
 		* [_c.2. Fill NA/missing values using `interpolate()`_](#c2-fill-namissing-values-using-interpolate)
 		* [_c.3. Fill NA/missing values using `replace()`_](#c3-fill-namissing-values-using-replace)
 * [2. Data visualization](#2-data-visualization)
