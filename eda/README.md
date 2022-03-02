@@ -1,5 +1,17 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+#### [What is Exploratory Data Analysis(EDA) ?](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#what-is-exploratory-data-analysiseda-)
+* [1. Handling Missing Values](#1-handling-missing-values)
+	* [Why data got missing?](#why-is-the-data-missing)
+	* [Measures for missing data](#measures-for-missing-data)
+		* [_a. Detecting missing values by using `isna()`, `notna()`_](#a-detecting-missing-values-by-using-isna-notna)
+		* [_b. Drop Rows/Columns with "Null" values using `dropna()`_](#b-drop-rowscolumns-with-null-values-using-dropna)
+		* [_c.1. Fill `NA/NaN` values using `fillna()`_](#c1-fill-nanan-values-using-fillna)
+		* [_c.2. Fill NA/missing values using `interpolate()`_](#c2-fill-namissing-values-using-interpolate)
+		* [_c.3. Fill NA/missing values using `replace()`_](#c3-fill-namissing-values-using-replace)
+* [2. Data visualization](#2-data-visualization)
+* [3. Handling Outliers](#3-handling-outliers)
+* [References:](#references)
 
 ## What is Exploratory Data Analysis(EDA) ?
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
