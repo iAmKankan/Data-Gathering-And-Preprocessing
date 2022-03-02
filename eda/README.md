@@ -11,8 +11,8 @@
 		* [_c.3. Fill NA/missing values using `replace()`_](#c3-fill-namissing-values-using-replace)
 * [2. Data visualization](#2-data-visualization)
 * [3. Handling Outliers](#3-handling-outliers)
-#### [References:](#references)
-
+#### [References](#references)
+---
 ## What is Exploratory Data Analysis(EDA) ?
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * Exploratory Data Analysis (EDA) is an approach to analyze the data using visual techniques. 
