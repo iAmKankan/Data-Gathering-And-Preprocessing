@@ -264,8 +264,98 @@ s.interpolate(method='pad', limit=2)
 dtype: object
 ```
 
+### _c.3. Fill NA/missing values using `replace()`_
+* Pandas ***dataframe.replace()*** function is used to replace a string, regex, list, dictionary, series, number etc. from a dataframe. 
 
+> #### _DataFrame.replace(to_replace=None, value=None, inplace=False, limit=None, regex=False, method=’pad’, axis=None)_
+* This is a very rich function as it has many variations.
+* The most powerful thing about this function is that it can work with Python regex (regular expressions).
 
+* **Example 1:** Replace team “Boston Celtics” with “Omega Warrior” in the [nba.csv](https://media.geeksforgeeks.org/wp-content/uploads/nba.csv) file
+```Python
+df[:10]
+```
+
+```
+	Name	Team	Number	Position	Age	Height	Weight	College	Salary
+0	Avery Bradley	Boston Celtics	0.0	PG	25.0	6-2	180.0	Texas	7730337.0
+1	Jae Crowder	Boston Celtics	99.0	SF	25.0	6-6	235.0	Marquette	6796117.0
+2	John Holland	Boston Celtics	30.0	SG	27.0	6-5	205.0	Boston University	NaN
+3	R.J. Hunter	Boston Celtics	28.0	SG	22.0	6-5	185.0	Georgia State	1148640.0
+4	Jonas Jerebko	Boston Celtics	8.0	PF	29.0	6-10	231.0	NaN	5000000.0
+5	Amir Johnson	Boston Celtics	90.0	PF	29.0	6-9	240.0	NaN	12000000.0
+6	Jordan Mickey	Boston Celtics	55.0	PF	21.0	6-8	235.0	LSU	1170960.0
+7	Kelly Olynyk	Boston Celtics	41.0	C	25.0	7-0	238.0	Gonzaga	2165160.0
+8	Terry Rozier	Boston Celtics	12.0	PG	22.0	6-2	190.0	Louisville	1824360.0
+9	Marcus Smart	Boston Celtics	36.0	PG	22.0	6-4	220.0	Oklahoma State	3431040.0
+```
+
+* We are going to replace team **“Boston Celtics”** with **“Omega Warrior”** in the **‘df’** data frame
+```Python
+# this will replace "Boston Celtics" with "Omega Warrior"
+df.replace(to_replace ="Boston Celtics", value ="Omega Warrior")
+```
+
+```
+	Name	Team	Number	Position	Age	Height	Weight	College	Salary
+0	Avery Bradley	Omega Warrior	0.0	PG	25.0	6-2	180.0	Texas	7730337.0
+1	Jae Crowder	Omega Warrior	99.0	SF	25.0	6-6	235.0	Marquette	6796117.0
+2	John Holland	Omega Warrior	30.0	SG	27.0	6-5	205.0	Boston University	NaN
+3	R.J. Hunter	Omega Warrior	28.0	SG	22.0	6-5	185.0	Georgia State	1148640.0
+4	Jonas Jerebko	Omega Warrior	8.0	PF	29.0	6-10	231.0	NaN	5000000.0
+...	...	...	...	...	...	...	...	...	...
+453	Shelvin Mack	Utah Jazz	8.0	PG	26.0	6-3	203.0	Butler	2433333.0
+454	Raul Neto	Utah Jazz	25.0	PG	24.0	6-1	179.0	NaN	900000.0
+455	Tibor Pleiss	Utah Jazz	21.0	C	26.0	7-3	256.0	NaN	2900000.0
+456	Jeff Withey	Utah Jazz	24.0	C	26.0	7-0	231.0	Kansas	947276.0
+457	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+458 rows × 9 columns
+```
+
+* **Example 2:** Replacing more than _one value at a time_. Using python list as an argument 
+* We are going to replace team **“Boston Celtics”** and **“Texas”** with **“Omega Warrior”** in the **‘df’** dataframe.
+```Python
+# this will replace "Boston Celtics" and "Texas" with "Omega Warrior"
+df.replace(to_replace =["Boston Celtics", "Texas"], 
+                            value ="Omega Warrior")
+```
+
+```
+Name	Team	Number	Position	Age	Height	Weight	College	Salary
+0	Avery Bradley	Omega Warrior	0.0	PG	25.0	6-2	180.0	Omega Warrior	7730337.0
+1	Jae Crowder	Omega Warrior	99.0	SF	25.0	6-6	235.0	Marquette	6796117.0
+2	John Holland	Omega Warrior	30.0	SG	27.0	6-5	205.0	Boston University	NaN
+3	R.J. Hunter	Omega Warrior	28.0	SG	22.0	6-5	185.0	Georgia State	1148640.0
+4	Jonas Jerebko	Omega Warrior	8.0	PF	29.0	6-10	231.0	NaN	5000000.0
+...	...	...	...	...	...	...	...	...	...
+453	Shelvin Mack	Utah Jazz	8.0	PG	26.0	6-3	203.0	Butler	2433333.0
+454	Raul Neto	Utah Jazz	25.0	PG	24.0	6-1	179.0	NaN	900000.0
+455	Tibor Pleiss	Utah Jazz	21.0	C	26.0	7-3	256.0	NaN	2900000.0
+456	Jeff Withey	Utah Jazz	24.0	C	26.0	7-0	231.0	Kansas	947276.0
+457	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN
+458 rows × 9 columns
+```
+
+* **Example 3**: Replace the Nan value in the data frame with -99999 value.
+```Python
+# will replace  Nan value in dataframe with value -99999 
+df.replace(to_replace = np.nan, value =-99999)
+```
+```
+	Name	Team	Number	Position	Age	Height	Weight	College	Salary
+0	Avery Bradley	Boston Celtics	0.0	PG	25.0	6-2	180.0	Texas	7730337.0
+1	Jae Crowder	Boston Celtics	99.0	SF	25.0	6-6	235.0	Marquette	6796117.0
+2	John Holland	Boston Celtics	30.0	SG	27.0	6-5	205.0	Boston University	-99999.0
+3	R.J. Hunter	Boston Celtics	28.0	SG	22.0	6-5	185.0	Georgia State	1148640.0
+4	Jonas Jerebko	Boston Celtics	8.0	PF	29.0	6-10	231.0	-99999	5000000.0
+...	...	...	...	...	...	...	...	...	...
+453	Shelvin Mack	Utah Jazz	8.0	PG	26.0	6-3	203.0	Butler	2433333.0
+454	Raul Neto	Utah Jazz	25.0	PG	24.0	6-1	179.0	-99999	900000.0
+455	Tibor Pleiss	Utah Jazz	21.0	C	26.0	7-3	256.0	-99999	2900000.0
+456	Jeff Withey	Utah Jazz	24.0	C	26.0	7-0	231.0	Kansas	947276.0
+457	-99999	-99999	-99999.0	-99999	-99999.0	-99999	-99999.0	-99999	-99999.0
+458 rows × 9 columns
+```
 ### 2. Data visualization
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Data Visualization is the process of analyzing data in the form of graphs or maps, making it a lot easier to understand the trends or patterns in the data. 
