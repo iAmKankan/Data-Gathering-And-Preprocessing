@@ -15,7 +15,7 @@
 * For Example, Suppose different users being surveyed may choose not to share their income, some users may choose not to share the address in this way many datasets went missing. 
 * Missing Data is a very big problem in real-life scenarios. 
 * Missing Data can also refer to as NA(Not Available) values in pandas. 
-### Why is data missing?
+### Why is the data missing?
 * The source of missing data can be very different and here are just a few examples:
   - A value is missing because it was forgotten or lost or not stored properly.
   - For a certain observation, the value of the variable does not exist.
