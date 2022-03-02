@@ -2,7 +2,7 @@
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 #### [What is Exploratory Data Analysis(EDA) ?](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#what-is-exploratory-data-analysiseda-)
 * [1. Handling Missing Values](#1-handling-missing-values)
-	* [Why does the data get missing?](#why-is-the-data-missing)
+	* [Why does the data get missing?](#why-does-the-data-get-missing)
 	* [Measures for missing data](#measures-for-missing-data)
 		* [_a. Detecting missing values by using `isna()`, `notna()`_](#a-detecting-missing-values-by-using-isna-notna)
 		* [_b. Drop Rows/Columns with "Null" values using `dropna()`_](#b-drop-rowscolumns-with-null-values-using-dropna)
