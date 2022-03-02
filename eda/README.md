@@ -2,7 +2,7 @@
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 #### [What is Exploratory Data Analysis(EDA) ?](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#what-is-exploratory-data-analysiseda-)
 * [1. Handling Missing Values](#1-handling-missing-values)
-	* [Why data got missing?](#why-is-the-data-missing)
+	* [Why does the data get missing?](#why-is-the-data-missing)
 	* [Measures for missing data](#measures-for-missing-data)
 		* [_a. Detecting missing values by using `isna()`, `notna()`_](#a-detecting-missing-values-by-using-isna-notna)
 		* [_b. Drop Rows/Columns with "Null" values using `dropna()`_](#b-drop-rowscolumns-with-null-values-using-dropna)
@@ -27,7 +27,7 @@
 * For Example, Suppose different users being surveyed may choose not to share their income, some users may choose not to share the address in this way many datasets went missing. 
 * Missing Data is a very big problem in real-life scenarios. 
 * Missing Data can also refer to as NA(Not Available) values in pandas. 
-### Why is the data missing?
+### Why does the data get missing?
 * The source of missing data can be very different and here are just a few examples:
   - A value is missing because it was forgotten or lost or not stored properly.
   - For a certain observation, the value of the variable does not exist.
