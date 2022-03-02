@@ -107,27 +107,165 @@ age	born	name	toy
 2	True	False	False	False
 ```
 
-### _b. Drop missing values_
+### _b. Drop Rows/Columns with "Null" values using `dropna()`_
+
 * If you're in a hurry or don't have a reason to figure out why your values are missing, one option you have is to just remove any rows or columns that contain missing values. 
-
-> Note: Generally this approch is not recommend for important projects! It's usually worth it to take the time to go through your data and really look at all the columns with missing values one-by-one to really get to know your dataset.    
-
+> #### Note: Generally this approch is not recommend for important projects! It's usually worth it to take the time to go through your data and really look at all the columns with missing values one-by-one to really get to know your dataset.    
 * To drop rows with missing values, Pandas does have a handy function, _**dropna()**_ to help you do this. 
+* The **_dropna()_** function is used to return a new Series with missing values removed.
+* 
+> #### _Series.dropna(self, axis=0, inplace=False, * *kwargs)_
+* **Returns: Series- Series with "NA" entries dropped from it.**
 
-#### [Filling in missing values automatically](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* We can use the Panda's _**fillna()**_ function to fill in missing values in a dataframe for us.
-* One option we have is to specify what we want the NaN values to be replaced with. 
-* Here, I would like to replace all the NaN values with 0.
+#### Row wise drop _NAs_ 
+> #### **`axis=0`** default; 0 means 'index' means rows
 
-> _df.fillna({'NameColumn':8,'AddressColumn':0})_ 
+```Python
+df.dropna()
+```
+```
+age	born	name	toy
+1	7.0	1998-04-25	Spiderman	Spidertoy
+```
+#### Column wise drop _NAs_
+> #### **`axis=1`**; 1 means 'column' 
 
-> _df[['col1', 'col2']].fillna(value=0, inplace=True)_
+```Python
+df.dropna(axis=1)
+```
+```
+name
+0	Alfred
+1	Spiderman
+2	
+```
+* **Note:** A blank space is not considered as 'NaN' or 'None' or 'NA' 
+
+
+### _c.1. Fill `NA/NaN` values using `fillna()`_
+* We can use the Panda's _**fillna()**_ function to fill in missing values in a dataframe.
+* One option we have is to specify what we want the "NaN" values to be replaced with. 
+* The **`fillna()`** function is used to fill NA/NaN values using the specified method.
+> #### _Series.fillna(self, value=None, method=None, axis=None, inplace=False, limit=None, downcast=None, * *kwargs) ;_
+
+* **Returns: Series- Object with missing values filled.**
+
+```Python
+df.head()
+```
+```
+	P	Q	R	S
+0	NaN	2.0	NaN	0
+1	3.0	4.0	NaN	1
+2	5.0	NaN	NaN	6
+3	NaN	4.0	NaN	5
+```
+#### Replace all NaN elements with 0s.
+```Python
+df.fillna(0)
+```
+```
+	P	Q	R	S
+0	0.0	2.0	0.0	0
+1	3.0	4.0	0.0	1
+2	5.0	0.0	0.0	6
+3	0.0	4.0	0.0	5
+```
+
+#### Only replace maximum number of consecutive `NaN` values to forward/backward fill.
+```Python
+df.fillna({'P': 0, 'Q': 1, 'R': 2, 'S': 3}, limit=2)
+```
+```
+	P	Q	R	S
+0	0.0	2.0	2.0	0
+1	3.0	4.0	2.0	1
+2	5.0	1.0	NaN	6
+3	0.0	4.0	NaN	5
+```
+#### Propagate non-null values forward or backward.
+```Python
+# Forward
+df.fillna(method='ffill')
+```
+```
+P	Q	R	S
+0	NaN	2.0	NaN	0
+1	3.0	4.0	NaN	1
+2	5.0	4.0	NaN	6
+3	5.0	4.0	NaN	5
+```
+
+```Python
+# Backward
+df.fillna(method='bfill')
+```
+```
+	P	Q	R	S
+0	3.0	2.0	NaN	0
+1	3.0	4.0	NaN	1
+2	5.0	4.0	NaN	6
+3	NaN	4.0	NaN	5
+```
+
+### _c.2. Fill NA/missing values using `interpolate()`_
+* The **interpolate()** function is used to interpolate values according to different methods.
+> #### _Series.interpolate(self, method='linear', axis=0, limit=None, inplace=False, limit_direction='forward', limit_area=None, downcast=None, * *kwargs) ;_
+* **Returns: Series or DataFrame- Returns the same object type as the caller, interpolated at some or all NaN values.**
+
+* **Notes** The ‘krogh’, ‘piecewise_polynomial’, ‘spline’, ‘pchip’ and ‘akima’ methods are wrappers around the respective SciPy implementations of similar names. These use the actual numerical values of the index.
+
+```Python
+s.head()
+```
+```
+0    0.0
+1    2.0
+2    NaN
+3    5.0
+dtype: float64
+```
+```Python
+s.interpolate()
+```
+```
+0    0.0
+1    2.0
+2    3.5
+3    5.0
+dtype: float64
+```
+#### Filling in NaN in a Series by padding, but filling at most two consecutive NaN at a time.
+```Python
+df.head()
+```
+```
+0              NaN
+1       single_one
+2              NaN
+3    fill_two_more
+4              NaN
+5              NaN
+6             3.71
+7              NaN
+```
+```Python
+s.interpolate(method='pad', limit=2)
+```
+```
+0              NaN
+1       single_one
+2       single_one
+3    fill_two_more
+4    fill_two_more
+5    fill_two_more
+6             3.71
+7             3.71
+dtype: object
+```
 
 
 
-
-* [Jupyter Notebook for the above Pandas function](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/missingvaluehandling.ipynb)
 ### 2. Data visualization
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Data Visualization is the process of analyzing data in the form of graphs or maps, making it a lot easier to understand the trends or patterns in the data. 
