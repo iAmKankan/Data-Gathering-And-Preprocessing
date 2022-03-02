@@ -378,16 +378,31 @@ df.replace(to_replace = np.nan, value =-99999)
 
 ### 3. Handling Outliers
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* An Outlier is a data-item/object that deviates significantly from the rest of the (so-called normal)objects. 
-* They can be caused by measurement or execution errors. 
-* The analysis for outlier detection is referred to as outlier mining. 
-* There are many ways to detect the outliers, and the removal process is the data frame same as removing a data item from the panda’s dataframe.
+* **_Outliers_** are data values that are far outside the rest of the observations in your dataset. 
+* Depending on the context, you sometimes might hear outliers referred to as **_anomalies_**.
+* For example, if the age of most college going students in a dataset is between 18 and 25, an observation of 60 for the age of a student would be considered an outlier
+* Generally, Outliers affect statistical results while doing the EDA process, we could say a quick example is the **MEAN** and **MODE** of a given set of data set, which will be misleading that the data values would be higher than they really are.
+* The **CORRELATION COEFFICIENT** is highly sensitive to outliers. 
+	* Since it measures the strength of a linear relationship between two variables and the relationship dependent of the data. 
+	* correlation is a non-resistant measure and r (**correlation coefficient**) is strongly affected by outliers.
+		* **Positive Relationship** When the correlation coefficient is closer to value 1
+		* **Negative Relationship** When the correlation coefficient is closer to value -1
+		* **Independent** When X and Y are independent, then the correlation coefficient is close to zero (0) 
 
-### Removing Outliers
-* For removing the outlier, one must follow the same process of removing an entry from the dataset using its exact position in the dataset because in all the above methods of detecting the outliers end result is the list of all those data items that satisfy the outlier definition according to the method used.
+### Are Outliers always bad?
+* Outliers in some cases can be useful for detection of abnormal activities. 
+	* For instance, if a person accesses her online bank account from a specific location 95% of the time and then suddenly her bank account is accessed from a geographical location far from her previous login, the new login will be treated as an outlier and can be helpful in fraud detection.
+* Outliers can also occur in your dataset due to human mistakes while entering data or even a failure of a data recording device. 
+ 	* In such cases, outliers can distort the distribution of data and convey erroneous information. If not handled, this can affect the performance of statistical algorithms like machine learning models.
 
+### Should I drop Outliers?
+* Before dropping the Outliers, we must analyze the dataset with and without outliers and understand better the impact of the results.
+* If you observed that it is obvious due to incorrectly entered or measured, certainly you can drop the outlier. No issues on that case.
+* If you find that your assumptions are getting affected, you may drop the outlier straight away, provided that no changes in the results.
+* If the outlier affects your assumptions and results. No questions simply drop the outlier and proceed with your further steps.
 
 
 ## References:
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * [Geeks For Geeks](https://www.geeksforgeeks.org/what-is-exploratory-data-analysis/)
+* [Wellsr.com](https://wellsr.com/python/outlier-data-handling-with-python/)
