@@ -46,7 +46,16 @@
 
 > #### Note: If an algorithm is not distance-based, feature scaling is unimportant, including `Naive Bayes`, `Linear Discriminant Analysis`, and `Tree-Based models` (gradient boosting, random forest, etc.).
 
-![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+#### Code for Feature Scaling
+### Data Standardization (Z-score normalization)
+* The result of Standardization (or **Z-score normalization**) is that the features will be rescaled to ensure the mean and the standard deviation are 0 and 1, respectively. 
+* Data Standardization is a data processing workflow that converts the structure of disparate datasets into a Common Data Format. 
+* Standardization comes into picture when features of input data set have large differences between their ranges, or simply when they are measured in different measurement units (e.g., Pounds, Meters, Miles … etc).
+* We try to bring all the variables or features to a similar scale. standarisation means centering the variable at zero.
+* <img src="https://latex.codecogs.com/svg.image?z=\frac{(&space;x-x_{mean}&space;)}{StandardDeviation}" title="z=\frac{( x-x_{mean} )}{StandardDeviation}" />
+* This technique to rescale features value with the distribution value between 0 and 1 is useful for the **optimization algorithms**, such as **gradient descent, that are used within machine-learning algorithms that weight inputs (e.g., regression and neural networks).**
+* Rescaling is also used for algorithms that use **distance measurements**, for example, **K-nearest-neighbours (KNN)**.
+
 
 ## [Gaussian Distribution / Normal Distribution](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/gaussian.ipynb)
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
