@@ -11,7 +11,8 @@
 		* [_c.3. Fill NA/missing values using `replace()`_](#c3-fill-namissing-values-using-replace)
 * [2. Data visualization](#2-data-visualization)
 * [3. Handling Outliers](#3-handling-outliers)
-* 
+* [4. Multi Colinearity Detection & Handling](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
+
 #### [References](#references)
 ---
 ## What is Exploratory Data Analysis(EDA) ?
