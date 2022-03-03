@@ -4,7 +4,7 @@
 ### Feature transformation
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * _**Feature transformation**_ is simply a function that transforms features from one representation to another. 
-### But why would we transform our features in the first place? 
+### Why would we transform our features in the first place? 
 * Well there are many reasons, such as:
   *  Data types are not suitable to be fed into a machine learning algorithm, e.g. _text_, _categories_
   *  Feature values may cause problems during the learning process, e.g. data represented in different scales
