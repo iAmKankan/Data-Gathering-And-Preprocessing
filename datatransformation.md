@@ -1,3 +1,17 @@
+## Index
+ ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+
+### Feature transformation
+![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+* _**Feature transformation**_ is simply a function that transforms features from one representation to another. 
+### But why would we transform our features in the first place? 
+* Well there are many reasons, such as:
+  *  Data types are not suitable to be fed into a machine learning algorithm, e.g. _text_, _categories_
+  *  Feature values may cause problems during the learning process, e.g. data represented in different scales
+  *  We want to reduce the number of features to plot and visualize data, speed up training or improve the accuracy of a specific model
+  *  Linear Regression uses Gradient Descent for its calculation of Global Minima thats needs a even scaled data for better a prediction.
+  *  Algorithms like KNN,K Means,Hierarichal Clustering use Eucledian Distance, Manhattan Distance etc. for the peorpose of mesure the distance between observations, They need scaled data too for the better prediction.
+  *  Deep Learning Techniques needs Standardization, Scaling they are also Feature Transformation techniques.
 
 ##  [Feature Scaling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/scaling.ipynb)
  ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
@@ -69,4 +83,4 @@
 
 
 ### References
-* https://www.analyticsvidhya.com/blog/2020/04/statistics-data-science-normal-distribution/
+* [Analytics vidhya](https://www.analyticsvidhya.com/blog/2020/04/statistics-data-science-normal-distribution/)
