@@ -1,6 +1,6 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-#### [What is Exploratory Data Analysis(EDA) ?](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#what-is-exploratory-data-analysiseda-)
+#### [_What is Exploratory Data Analysis(EDA) ?_](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/eda/README.md#what-is-exploratory-data-analysiseda-)
 * [1. Handling Missing Values](#1-handling-missing-values)
 	* [Why does the data get missing?](#why-does-the-data-get-missing)
 	* [Measures for missing data](#measures-for-missing-data)
@@ -12,7 +12,7 @@
 * [2. Data visualization](#2-data-visualization)
 * [3. Handling Outliers](#3-handling-outliers)
 * [4. Multi Colinearity Detection & Handling](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
-#### Autometic EDA
+#### _Autometic EDA_
 * **Pandas Profiling**
 #### [References](#references)
 ---
