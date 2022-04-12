@@ -110,6 +110,77 @@ if __name__ == "__main__":
 
 ### Template Inheritance
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+* Template inheritance is a very good feature of Jinja templating . Jinja is a web template engine for the Python programming language . 
+* We have seen that webpages of a website contains same footer , navigation bar etc.  So instead of making same footer and navigation bar in all webpages separately , we make use of template inheritance , which allows us to create the part which is same in all webpages (eg. footer,navigation bar) only once and we also don’t need to write the html , head , title tag again and again . 
+* Lets define the common structure of web pages in **_base.html_** file. First of all we will render  template using flask from _**main.py**_ file .
+
+#### Step 1:
+* Create a flask app to render the main template 
+
+```Python
+
+from flask import Flask, render_template
+  
+# Setting up the application
+app = Flask(__name__)
+  
+# making route
+  
+  
+@app.route('/')
+def home():
+    return render_template('home.html')
+  
+  
+# running application
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+#### Step 2 
+* Create HTML Files
+  * Now we will set up our **_base.html_** file in which we have one heading which will be common in all webpages. 
+
+> #### Syntax : 
+```
+{% block content %}
+{% endblock %}
+```
+* The code above and below these lines will be the same for every web pages and the code between them will be for a specific web page . 
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Template Inheritance</title>
+</head>
+<body>
+    <h1> This heading is common in all webpages </h1>
+    {% block content %}
+    {% endblock %}
+  
+</body>
+</html>
+```
+
+* Now we will set up our **_home.html_** file in which we will inherit template from **_"base.html"_** file and will write some code for home page as well . 
+
+> #### Syntax :
+````
+        {% extends "base.html" %}
+        {% block content %}
+          write code here for home page only 
+        {% endblock %}
+```
+
+````HTML
+{%extends "base.html" %}
+{%block content%}
+  
+<h1>Welcome to Home</h1>
+  
+{% endblock %}
+```
+
 
 ## Resources:
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
