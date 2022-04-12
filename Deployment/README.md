@@ -3,7 +3,7 @@
 #### [Project Setup](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/README.md#project-setup)
 #### Micro-Web frameworks in Python 
   * [Falsk setup](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/flask)
-* Cloud Plateforms
+#### Cloud Plateforms
   * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/heroku#readme)
 ## Micro-Web frameworks in Python 
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
