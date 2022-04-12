@@ -39,6 +39,8 @@ if __name__ == "__main__":
     # on the local development server.
     app.run(debug=True)
 ```
+#### Output
+<img src="https://user-images.githubusercontent.com/12748752/162886709-40651c92-ff0b-47df-bb7a-02f1450140f3.png" width=50% border="5" />
 
 #### [Example 02:](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/app2.py)
  ```Python
@@ -62,10 +64,13 @@ if __name__ == '__main__':
 {'hello': 'world'}
 ```
 
-> * ####  Save this as api.py and run it using your Python interpreter. And open 'localhost' with port 5000 - "http://127.0.0.1:5000/" or "http://localhost:5000/".
-> * #### _Note_ that we’ve enabled Flask debugging mode to provide code reloading and better error messages.
-> * ####  _Debug mode should never be used in a production environment!_
+#### Output
+<img src="https://user-images.githubusercontent.com/12748752/162887181-c8b48965-c76c-4ba4-b2eb-eb386880a9dd.png" width=40% border="5" />
 
+* **Save this as api.py and run it using your Python interpreter. And open 'localhost' with port 5000 - "http://127.0.0.1:5000/" or "http://localhost:5000/".**
+#### _Note_ 
+* **We’ve enabled Flask debugging mode to provide code reloading and better error messages.**
+* **_Debug mode should never be used in a production environment!_**
 ### Static Content
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Make `index.html` file inside `templates` folder.
