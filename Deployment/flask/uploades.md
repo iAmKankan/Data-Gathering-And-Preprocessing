@@ -31,6 +31,7 @@ def index():
         <p>Upload only text, json files only.</p>
         
         <form action="/" method="post" enctype="multipart/form-data"> 
+        <!-- We have created a form, The action would be '/' in flask we declaired-->
           <input type="file" name="file" required multiple>
           <input type="submit" value="Upload">
         </form>
@@ -39,3 +40,5 @@ def index():
     
 </body>
 </html>
+```
+<img src="https://user-images.githubusercontent.com/12748752/162966501-1c14e621-3fa3-463f-9207-e38bfa2dea21.png" width=50%/>
