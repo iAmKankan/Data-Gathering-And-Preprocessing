@@ -165,14 +165,14 @@ if __name__ == '__main__':
 * Now we will set up our **_home.html_** file in which we will inherit template from **_"base.html"_** file and will write some code for home page as well . 
 
 > #### Syntax :
-````
+```
         {% extends "base.html" %}
         {% block content %}
           write code here for home page only 
         {% endblock %}
 ```
 
-````HTML
+```HTML
 {%extends "base.html" %}
 {%block content%}
   
