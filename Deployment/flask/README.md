@@ -40,7 +40,7 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 #### Output
-<img src="https://user-images.githubusercontent.com/12748752/162886709-40651c92-ff0b-47df-bb7a-02f1450140f3.png" width=50% border="5" />
+<img src="https://user-images.githubusercontent.com/12748752/162886709-40651c92-ff0b-47df-bb7a-02f1450140f3.png" width=50% style="padding:1px;border:thin solid black;" />
 
 #### [Example 02:](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/app2.py)
  ```Python
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 ```
 
 #### Output
-<img src="https://user-images.githubusercontent.com/12748752/162887181-c8b48965-c76c-4ba4-b2eb-eb386880a9dd.png" width=40% border="5" />
+<img src="https://user-images.githubusercontent.com/12748752/162887181-c8b48965-c76c-4ba4-b2eb-eb386880a9dd.png" width=40% border="1" />
 
 * **Save this as api.py and run it using your Python interpreter. And open 'localhost' with port 5000 - "http://127.0.0.1:5000/" or "http://localhost:5000/".**
 #### _Note_ 
