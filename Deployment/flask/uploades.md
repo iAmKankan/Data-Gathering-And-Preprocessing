@@ -41,4 +41,5 @@ def index():
 </body>
 </html>
 ```
+* In order to run the code type **`flask run`** in the terminal.
 <img src="https://user-images.githubusercontent.com/12748752/162966501-1c14e621-3fa3-463f-9207-e38bfa2dea21.png" width=50%/>
