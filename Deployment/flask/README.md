@@ -11,7 +11,9 @@
   * **_Werkzeug_** It is a WSGI toolkit, which implements requests, response objects, and other utility functions. This enables building a web framework on top of it. The Flask framework uses Werkzeug as one of its bases.
   * **_jinja2_** jinja2 is a popular templating engine for Python. A web templating system combines a template with a certain data source to render dynamic web pages.
 
-* **_Flask_** and **_Flask-RESTful_**
+### Basic **_Flask_** and **_Flask-RESTful_**
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+
 #### [Example 01:](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/app.py)
 ```python3
 
@@ -71,6 +73,7 @@ if __name__ == '__main__':
 #### _Note_ 
 * **We’ve enabled Flask debugging mode to provide code reloading and better error messages.**
 * **_Debug mode should never be used in a production environment!_**
+
 ### Static Content
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Make `index.html` file inside `templates` folder.
