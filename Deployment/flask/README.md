@@ -74,7 +74,7 @@ if __name__ == '__main__':
 * **We’ve enabled Flask debugging mode to provide code reloading and better error messages.**
 * **_Debug mode should never be used in a production environment!_**
 
-### Static Content
+### Flask with Static Content
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * Make `index.html` file inside `templates` folder.
 * Make change in the python code that will return a html file not a string `return render_template('index.html', tasks=tasks)`
