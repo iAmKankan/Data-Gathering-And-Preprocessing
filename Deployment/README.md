@@ -4,13 +4,12 @@
 * [Micro-Web frameworks in Python](url)
   * [Falsk setup](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/flask)
 * Cloud Plateforms
-  * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/blob/main/Deployment/heroku.md)
+  * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/heroku#readme)
 ## Micro-Web frameworks in Python 
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 * There are many frameworks which allow building your webpage using python like a **_bottle_**, **_Django_**, **_flask_**, etc. 
 * But the real popular ones are **_Flask_** and **_Django_**.
 * Django is easy to use as compared to Flask but Flask provides you the versatility to program with.
-
 
 ## Project Setup 
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
