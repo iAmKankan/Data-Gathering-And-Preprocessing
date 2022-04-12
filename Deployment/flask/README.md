@@ -76,8 +76,8 @@ if __name__ == '__main__':
 
 ### Flask with Static Content
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
-* Make `index.html` file inside `templates` folder.
-* Make change in the python code that will return a html file not a string `return render_template('index.html', tasks=tasks)`
+* Make **_`index.html`_** file inside **_`templates`_** folder.
+* Make change in the python code that will return a _html_ file not a string - **`return render_template('index.html', tasks=tasks)`**
  > #### Python file
  ```python
 from flask import Flask
