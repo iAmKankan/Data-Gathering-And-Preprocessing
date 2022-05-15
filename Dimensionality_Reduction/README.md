@@ -31,6 +31,9 @@ Majority of the **machine learning algorithms** they rely on the **calculation o
 **_For Three dimension_ nD:** if we need to calculate the distance between two points in three dimensions
 ##### the formula is- <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2&plus;(y_1-y_2)^2&space;&plus;&space;(z_1-z_2)^2&plus;&space;\cdots&plus;(n_1-n_2)^2}}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2+(y_1-y_2)^2 + (z_1-z_2)^2+ \cdots+(n_1-n_2)^2}} }" align="center"/>
 
+This is the effort of calculating the distance between two points. Just imagine the number of calculations involved for all the data points involved.
+
+One more point to consider is that as the number of dimension increases, points are going far away from each other. This means that any new point that comes when we are testing the model is going to be farther away from our training points. This leads to a less reliable model, and it makes our model overfitted to the training data.
 
 > ### Issue 1
 > * Specifically the issue of data sparsity and “closeness” of data.
