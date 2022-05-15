@@ -35,6 +35,23 @@ This is the effort of calculating the distance between two points. Just imagine 
 
 One more point to consider is that as the number of dimension increases, points are going far away from each other. This means that any new point that comes when we are testing the model is going to be farther away from our training points. This leads to a less reliable model, and it makes our model overfitted to the training data.
 
+
+* **Hard (or almost impossible) to visualise the relationship between features:** As stated above, humans can not comprehend things beyond three dimensions. So, if we have an n-dimensional dataset, the only solution left to us is to create either a 2-D or 3-D graph out of it. Let’s say for simplicity, we are creating 2-D graphs. Suppose we have 1000 features in the dataset. That results in a  total (1000*999)/2= 499500 combinations possible for creating the 2-D graph.
+
+Is it humanly possible to analyse all those graphs to understand the relationship between the variables?
+
+**The questions that we need to ask at this point are:**
+
+* Are all the features really contributing to decision making?
+* Is there a way to come to the same conclusion using a lesser number of features?
+* Is there a way to combine features to create a new feature and drop the old ones?
+* Is there a way to remodel features in a way to make them visually comprehensible?
+
+The answer to all the above questions is- _Dimensionality Reduction technique._
+
+
+
+
 > ### Issue 1
 > * Specifically the issue of data sparsity and “closeness” of data.
 > * It becomes very challenging to identify meaningful patterns while analyzing and visualizing the data and it also degrades the Machine Learning model’s accuracy while decreasing the computation speed as well, i.e. training the model will become much slower as the dimensions increase.
