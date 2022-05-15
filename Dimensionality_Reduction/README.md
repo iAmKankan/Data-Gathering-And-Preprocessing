@@ -50,6 +50,8 @@ Is it humanly possible to analyse all those graphs to understand the relationshi
 The answer to all the above questions is- _Dimensionality Reduction technique._
 
 
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
 
 > ### Issue 1
