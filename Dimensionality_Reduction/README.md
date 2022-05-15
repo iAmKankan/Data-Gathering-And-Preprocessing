@@ -9,10 +9,23 @@
 
 ### The Curse of Dimensionality
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-* The curse of dimensionality is a problem that arises when we are working with a lot of data having multiple features or we can say it as high dimensional data.
-* The dimension of the data means the no. of features or columns in our dataset.
- * **In machine learning,** a small increase in the dimensionality would require a large increase in the volume of the data in order to maintain a similar level of performance.
- * Thus the curse of dimensionality is the expression of all phenomena that appear with high-dimensional data, and that have most often unfortunate consequences on the behavior and performances of learning algorithms.
+> **_The curse of dimensionality_** is a problem that arises when we are working with a _lot of data having multiple features_ or we can say it as _**high dimensional data**_. 
+
+The curse of dimensionality is the expression of all phenomena that appear with **high-dimensional** data, and that have most often unfortunate consequences on the behavior and performances of learning algorithms.
+
+#### ◾ _Dimension_
+The dimension of the data means the number of features or columns in our dataset. 
+
+#### ◾ _The Problem_
+**In machine learning,** a small increase in the dimensionality would require a large increase in the volume of the data in order to maintain a similar level of performance.
+
+#### Issue 01 : _Increase in computation time_:-
+Majority of the **machine learning algorithms** they rely on the **calculation of distance** for _model building_ and as the number of dimensions increases it becomes more and more **computation-intensive** to create a model out of it. 
+
+**For example:** if we have to calculate the distance between two points in just one dimension, like two points on the number line, we’ll just subtract the coordinate of one point from another and then take the magnitude:
+##### Distance: <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}(y-\hat&space;y)}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}(y-\hat y)} }" align="center"/>
+
+
 > ### Issue 1
 > * Specifically the issue of data sparsity and “closeness” of data.
 > * It becomes very challenging to identify meaningful patterns while analyzing and visualizing the data and it also degrades the Machine Learning model’s accuracy while decreasing the computation speed as well, i.e. training the model will become much slower as the dimensions increase.
