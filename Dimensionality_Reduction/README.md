@@ -13,17 +13,23 @@
 
 The curse of dimensionality is the expression of all phenomena that appear with **high-dimensional** data, and that have most often unfortunate consequences on the behavior and performances of learning algorithms.
 
-#### ◾ _Dimension_
+### ◼️ _Dimension_
 The dimension of the data means the number of features or columns in our dataset. 
 
-#### ◾ _The Problem_
+### ◼️ _The Problem_
 **In machine learning,** a small increase in the dimensionality would require a large increase in the volume of the data in order to maintain a similar level of performance.
 
-#### Issue 01 : _Increase in computation time_:-
+### Issue 01 : _Increase in computation time_:-
 Majority of the **machine learning algorithms** they rely on the **calculation of distance** for _model building_ and as the number of dimensions increases it becomes more and more **computation-intensive** to create a model out of it. 
 
-**For example:** if we have to calculate the distance between two points in just one dimension, like two points on the number line, we’ll just subtract the coordinate of one point from another and then take the magnitude:
-##### Distance: <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}(y-\hat&space;y)}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}(y-\hat y)} }" align="center"/>
+**_For one dimension_ 1D:** if we have to calculate the distance between two points in just one dimension, like two points on the number line, we’ll just subtract the coordinate of one point from another and then take the magnitude:
+##### the formula is-  <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}(x_1-x_2)}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}(x_1-x_2)} }" align="center"/>
+
+**_For Two dimension_ 2D:** if we need to calculate the distance between two points in two dimensions.
+##### the formula is- <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2&plus;(y_1-y_2)^2}}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}} }" align="center" />
+
+**_For Three dimension_ nD:** if we need to calculate the distance between two points in three dimensions
+##### the formula is- <img src="https://latex.codecogs.com/svg.image?\large&space;\mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2&plus;(y_1-y_2)^2&space;&plus;&space;(z_1-z_2)^2&plus;&space;\cdots&plus;(n_1-n_2)^2}}&space;}" title="https://latex.codecogs.com/svg.image?\large \mathbf{{\color{Purple}\sqrt{(x_1-x_2)^2+(y_1-y_2)^2 + (z_1-z_2)^2+ \cdots+(n_1-n_2)^2}} }" align="center"/>
 
 
 > ### Issue 1
@@ -34,6 +40,8 @@ Majority of the **machine learning algorithms** they rely on the **calculation o
 > ### Issue 2
 > * In theory, one solution to the curse of dimensionality could be to increase the size of the training set to reach a sufficient density of training instances.
 > * Unfortunately, in practice, the number of training instances required to reach a given density grows exponentially with the number of dimensions. 
+ 
+ 
  ### How to combat CoD
  ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
  * **Dimensionality Reduction**
