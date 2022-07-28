@@ -1,9 +1,10 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
-#### [Project Setup](#project-setup)
-#### Micro-Web frameworks in Python 
+#### Project Setup
+* [Virtual Environment](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/edit/main/Deployment/README.md#virtual-environment)
+#### _Micro-Web frameworks in Python_ 
   * [Falsk](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/flask)
-#### Cloud Plateforms
+#### _Cloud Plateforms_
   * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/heroku#readme)
 ## Micro-Web frameworks in Python 
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
@@ -11,7 +12,7 @@
 * But the real popular ones are **_Flask_** and **_Django_**.
 * Django is easy to use as compared to Flask but Flask provides you the versatility to program with.
 
-## Project Setup 
+## Virtual Environment 
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 > ### Step 01: Install Virtual Environment
 * Open a IDE 
