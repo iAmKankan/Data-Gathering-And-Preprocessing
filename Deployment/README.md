@@ -8,14 +8,18 @@
   * [Falsk](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/flask)
 #### _Cloud Plateforms_
   * [Heroku](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment/heroku#readme)
-## Micro-Web frameworks in Python 
+
+<img src="https://user-images.githubusercontent.com/12748752/154287300-f19161fc-ada0-4c38-8920-422ad688065a.png" weight=40% />
+
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+## Micro-Web frameworks in Python 
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 * There are many frameworks which allow building your webpage using python like a **_bottle_**, **_Django_**, **_flask_**, etc. 
 * But the real popular ones are **_Flask_** and **_Django_**.
 * Django is easy to use as compared to Flask but Flask provides you the versatility to program with.
 
 ## Virtual Environment 
-![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
+![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 > ### Step 01: Install Virtual Environment
 * Open a IDE 
 * Go to the terminal
