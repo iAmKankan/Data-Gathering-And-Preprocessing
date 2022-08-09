@@ -1,7 +1,7 @@
 ## Index
 ![Dark](https://user-images.githubusercontent.com/12748752/126914729-75e0fed5-fdaa-4216-81c8-719340e80694.png)
 #### Project Setup
-* [Virtual Environment](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment#readme)
+* [Virtual Environment]https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/Deployment#virtual-environment)
 * Requirements setup 
 
 #### _Micro-Web frameworks in Python_ 
