@@ -13,7 +13,7 @@
 * [3. Handling Outliers](#3-handling-outliers)
 * [4. Multi Colinearity Detection & Handling](https://github.com/iAmKankan/MachineLearning_With_Python/blob/master/Supervised/Linear%20Regrassion/correlation.md)
 #### _Autometic EDA_
-* Pandas Profiling
+* [Pandas Profiling](https://github.com/iAmKankan/Data-Gathering-And-Preprocessing/tree/main/eda/pandas-profiling)
 #### [References](#references)
 ---
 ## What is Exploratory Data Analysis(EDA) ?
