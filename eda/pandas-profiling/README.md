@@ -32,11 +32,44 @@ profile = ProfileReport(df, title="Pandas Profiling Report")
 ### Using inside Jupyter Notebooks
 ![Light](https://user-images.githubusercontent.com/12748752/126914730-b5b13ba9-4d20-4ebf-b0ed-231af4c8b984.png)
 
-There are two interfaces to consume the report inside a _Jupyter notebook_ (see animations below): through _widgets_ and through an embedded HTML report.
+There are two interfaces to consume the report inside a _Jupyter notebook_ (see animations below): through _widgets_ and through an _embedded HTML report_.
 
 
 <p align="center"> <img src="https://pandas-profiling.ydata.ai/docs/master/_images/widgets.gif" width=70%/>
 </p>
+
+This is achieved by simply displaying the report as a set of widgets. In a Jupyter Notebook, run:
+
+```Python
+profile.to_widgets()
+```
+
+The HTML report can be directly embedded in a cell in a similar fashion:
+
+```Python
+profile.to_notebook_iframe()
+```
+
+
+## Exporting the report to a file
+To generate a HTML report file, save the ProfileReport to an object and use the to_file() function:
+
+```Python
+profile.to_file("your_report.html")
+```
+
+Alternatively, the report’s data can be obtained as a JSON file:
+
+```Python
+# As a JSON string
+json_data = profile.to_json()
+# As a file
+profile.to_file("your_report.json")
+```
+
+
+
+
 
 
 
